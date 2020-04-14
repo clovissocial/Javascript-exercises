@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculating the GCD</title>
+</head>
+<body>
+    
+    <script>
+
+        //Looking for the gcd of 2 numbers
+
+        let gcd = (number1, number2) => {
+            if (number2 == 0) {
+                return number1;
+            }
+
+            else {
+                var remainder = number1 % number2;
+            }
+
+            return gcd (number2, remainder);
+        }
+    </script>
+</body>
+</html>

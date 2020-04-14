@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+</head>
+<body>
+
+    <script>
+        
+        //========== Fibonacci Series ===========//
+
+        let a;
+        let b;
+        let result;
+
+        a=1;
+        b=0;
+        result = b;
+
+        for (let f = 1; f < 20; f++) {
+            console.log(result +"");
+            result = a + b;
+            a = b;
+            b = result;
+        }
+    </script>
+</body>
+</html>
